@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-profesiku-dev-152042-authRole",
+      "UnauthRoleArn": "arn:aws:iam::742322548650:role/amplify-profesiku-dev-152042-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::742322548650:role/amplify-profesiku-dev-152042-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-profesiku-dev-152042-deployment",
+      "UnauthRoleName": "amplify-profesiku-dev-152042-unauthRole",
+      "StackName": "amplify-profesiku-dev-152042",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:742322548650:stack/amplify-profesiku-dev-152042/9c3a5370-7acb-11eb-a0e2-06850023b7d0",
+      "AmplifyAppId": "d3hbpek1hivgv6"
+    },
+    "categories": {
+      "auth": {
+        "profesikuff6c2a64": {}
+      },
+      "function": {
+        "profesikuaac474b9DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-profesiku-dev-152042-deployment",
+          "s3Key": "amplify-builds/profesikuaac474b9DefineAuthChallenge-4c4d5830714c6c4a4639-build.zip"
+        },
+        "profesikuaac474b9CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-profesiku-dev-152042-deployment",
+          "s3Key": "amplify-builds/profesikuaac474b9CreateAuthChallenge-7476354747685450554c-build.zip"
+        }
+      }
+    }
+  }
+}

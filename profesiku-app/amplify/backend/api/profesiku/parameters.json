@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "profesiku",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authprofesikuff6c2a64",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
