@@ -19,6 +19,7 @@ type Project @model {
   createdAt: String
   files: [File] @connection(name: "ProjectFile", sortField: "createdAt")
   jobs: [Task] @connection(name: "ProjectTask")
+  user: User @connection(name: "UserProject")
 }
 
 type File @model {
